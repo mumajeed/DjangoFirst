@@ -22,7 +22,7 @@ def to_do(request):
     return HttpResponse(textwrap.dedent('''\
             <html>
             <head>
-                <title>To Do App</title>
+                <title>To Do App by Mubeena</title>
             </head>
             <body>
                 <h1>To Do App</h1>
