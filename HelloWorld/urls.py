@@ -26,6 +26,6 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', view.printres, name='home'),
-    path('test/', view.to_do)
+    path('todo/', view.to_do)
 
 ]
